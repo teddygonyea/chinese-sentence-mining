@@ -1,0 +1,45 @@
+Front Template:
+<div>{{Image}}</div>
+<div id=sentence>{{Sentence}}</div>
+<div>{{Sentence Audio}}</div>
+
+
+Back Template:
+{{FrontSide}}
+
+<hr id=answer>
+
+<div id=target-word>{{Target Word}}</div>
+<div id=definition>{{Word Definition}}</div>
+
+
+Styling:
+.card {
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+
+#sentence {
+	font-family: times;
+}
+
+#target-word {
+	font-family: times;
+	font-size: 40px;
+}
+
+#definition {
+	font-size: 10px;
+	color: gray;
+}
+
+img {
+  width: auto;
+  height: auto;
+  max-width: 250px;
+  max-height: 250px;
+	border-radius: 5px;
+}
+
